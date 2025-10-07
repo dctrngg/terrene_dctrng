@@ -1,10 +1,12 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Bắt buộc để tạo thư mục /out
-  images: { unoptimized: true }, // Nếu bạn dùng <Image>
-  basePath: '/terrene_dctrng',
-  assetPrefix: '/terrene_dctrng/',
+  output: 'export', // Bắt buộc để Next export ra HTML tĩnh
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
+  basePath: '', // Nếu deploy subfolder, ví dụ '/myapp'
+  assetPrefix: './',
 };
 
 export default nextConfig;

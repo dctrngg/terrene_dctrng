@@ -2,15 +2,13 @@
   "name": "terrene",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dctrngg.github.io/terrene_dctrng",
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-}
-
-,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
+  },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "gsap": "^3.13.0",
