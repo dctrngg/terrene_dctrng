@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://dctrng.github.io/terrene_dctrng",
-  "scripts": {
+ "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
-  "predeploy": "npm run build && npm run export",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d out"
 }
+
 ,
   "dependencies": {
     "@gsap/react": "^2.1.2",
