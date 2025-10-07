@@ -2,7 +2,7 @@
   "name": "terrene",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dctrng.github.io/terrene_dctrng",
+  "homepage": "https://dctrngg.github.io/terrene_dctrng",
 "scripts": {
   "dev": "next dev",
   "build": "next build",
